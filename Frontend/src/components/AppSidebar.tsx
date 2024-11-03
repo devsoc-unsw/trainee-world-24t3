@@ -27,10 +27,10 @@ function LinkIcon({ name, path, icon }: LinkIconProps) {
 }
 
 export const routes: LinkIconProps[] = [
+  { name: 'Tasks', path: '/tasks', icon: <PiChartBarThin /> },
   { name: 'Dashboard', path: '/dashboard', icon: <PiCube /> },
   { name: 'Countdown', path: '/countdown', icon: <PiCalendar /> },
-  { name: 'Planning', path: '/planning', icon: <PiCircle /> },
-  { name: 'Tasks', path: '/tasks', icon: <PiChartBarThin /> }
+  { name: 'Planning', path: '/planning', icon: <PiCircle /> }
 ];
 
 export default function AppSidebar() {
