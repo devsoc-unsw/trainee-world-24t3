@@ -1,0 +1,21 @@
+/* .countdown {
+  background-color: bg-teal-600;
+} */
+
+.night {
+  color: #FFFFFF;
+  background-color: #232323;
+}
+
+.day {
+  color: #18181B;
+  background-color: #FFFFFF;
+}
+
+.countdown.night {
+  @apply bg-teal-600 p-4 text-white;
+}
+
+.countdown.day {
+  @apply bg-teal-200 p-4 text-black;
+}
