@@ -18,7 +18,7 @@ function LinkIcon({ name, path, icon }: LinkIconProps) {
 
   return (
     <Link to={path} className={`sidebar-link ${isActive ? 'active' : ''} ${themeClass}`}>
-      <div className="icon-text-wrapper">
+      <div className="flex items-center gap-x-1">
         {icon}
         <span className="sidebar-link-text">{name}</span>
       </div>
