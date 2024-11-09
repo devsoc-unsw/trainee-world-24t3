@@ -22,10 +22,10 @@ export default function LayoutMain() {
     <div className="layout-main">
       <AppSidebar />
       <div className="main-content">
-        <Button className='fixed top-2.5 right-2.5' onClick={toggleTheme}>Toggle Theme</Button>
-        {/* <button className="fixed top-2.5 right-2.5" onClick={toggleTheme}>
+        {/* <Button className='fixed top-2.5 right-2.5' onClick={toggleTheme}></Button> */}
+        <button className="fixed top-2.5 right-2.5" onClick={toggleTheme}>
           Toggle Theme
-        </button> */}
+        </button>
         <Routes>
           <Route path="/" element={<Navigate to="/dashboard" replace />} />
           <Route path="dashboard" element={<Dashboard />} />
