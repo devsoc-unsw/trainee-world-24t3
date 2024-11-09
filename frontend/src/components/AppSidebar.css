@@ -1,22 +1,10 @@
-.night {
-  color: #FFFFFF;
-  background-color: #232323;
-}
-
-.day {
-  color: #18181B;
-  background-color: #FFFFFF;
-}
-
-
 .sidebar.day {
-  background-color: #F3F4F6;
+  @apply bg-gray-100;
 }
 
 .sidebar.night {
-  background-color: #18181B;
+  @apply bg-neutral-900;
 }
-  
   
 .sidebar.closed {
   width: 60px;
