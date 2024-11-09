@@ -15,32 +15,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.day {
-  --background-color: white;
-}
 
 .night {
-  --background-color: black;
+  @apply text-white;
+  @apply bg-neutral-800;
 }
 
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
+.day {
+  @apply text-zinc-900;
+  @apply bg-white;
 }
 
 .layout-main {
   display: flex;
-  /* background-color: green; */
   height: 100vh;
   flex: 1;
 }
 
-.main-content {
-  flex: 1;
-  padding: 20px;
-}
 
-@layer base {
+/* @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
@@ -94,7 +87,7 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
-}
+} 
 
 @layer base {
   * {
@@ -103,4 +96,5 @@ body {
   body {
     @apply bg-background text-foreground;
   }
-}
+white } */
+
