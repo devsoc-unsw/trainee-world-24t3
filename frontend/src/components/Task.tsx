@@ -16,10 +16,9 @@ export default function Task(props: any) {
   
     return (
     <div>
-        <h1>{curTask.taskName}</h1>
-        <p>{curTask.taskSubject}</p>
+        <h1 className='font-semibold text-base'>{curTask.taskName}</h1>
+        <p className='text-sm'>{curTask.taskSubject}</p>
         <p>Due: {curTask.taskEndTime.toDateString()}</p>
-
     </div>
   )
 }
